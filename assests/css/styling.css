@@ -1,0 +1,72 @@
+.title{
+    background-color: blueviolet;
+    color: black;
+    font-size: 40px;
+    text-decoration: dotted;
+    text-align: center;
+    border: 4px groove;
+    border-color: blueviolet;
+    margin: 0px 15px
+}
+
+body{
+    background-color: burlywood;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+#p{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding: auto;
+}
+
+.media{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-style: oblique;
+    border-style: double groove;
+    border-color: blueviolet;
+    background-color: blueviolet;
+    padding: 3px 3px;
+    margin: center
+}
+
+#img{
+    border-style:groove;
+    border-color: blueviolet ;
+}
+
+
+form{
+    border-style: groove;
+    border-color: blueviolet;
+    text-decoration-style: double;
+    text-align: left;
+    padding: 55px;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 2px;
+}
+
+div{
+    
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: Animation;
+    -webkit-animation-duration: 1s ;
+    animation-name: Animation;
+    animation-duration: 1s;          animation-iteration-count: 15;
+    transition-delay: 3s;
+    }
+  @keyframes Animation{
+        from{background-color: red;}
+        to{background-color: green;} 
+    }
